@@ -1,0 +1,32 @@
+Entidades
+
+-> Carro
+    ->modelo (string)
+    ->marca (string)
+    ->cor (string)
+    ->potencia (int)
+    ->ar_condicionado (boolean)
+
+-> Pessoa
+    ->nome (string)
+    ->cpf (string)
+    ->email (string)
+    ->telefone (string)
+
+-> Agenda/Locação
+    ->preço (float)
+    ->local_retirada (string)
+    ->data_retirada (string)
+    ->hora_retirada (string)
+    ->local_devolução (string)
+    ->data_devolução (string)
+    ->hora_devolução (string)
+    ->carro (Objeto Carro)
+    ->pessoa (Objeto Pessoa)
+    ->Metodo -> Definir preço de acordo com a quantidade tempo 50/dia
+
+
+->Task
+1 - Criar as classes e atributos;
+2 - Criar um objeto carro, pessoa e agenda (escolher nome melhor);
+3 - Exibir a informação de cara um desses objetos;
